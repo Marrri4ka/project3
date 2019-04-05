@@ -34,8 +34,10 @@ $(document).ready(function() {
           }
         }
 
+        if (number % 3 === 0 && (count3 > 0)) {
+          res = Dave1;
 
-        if (count3 > 0) {
+        } else if (count3 > 0) {
           res = Dave;
         } else if (count2 > 0) {
           res = "Bob";
@@ -55,6 +57,7 @@ $(document).ready(function() {
       }
 
 
+
     }
     $("#upsidedown").click(function() {
       res1 = res1.reverse();
@@ -70,8 +73,3 @@ $(document).ready(function() {
   });
 
 });
-
-
-// if (number % 3 === 0) {
-//   for
-// }
