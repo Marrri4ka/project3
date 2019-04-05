@@ -46,14 +46,20 @@ $(document).ready(function() {
 
         $("#result ul").append("<li>" + res + "</li>");
 
+
       }
 
 
     }
     $("#upsidedown").click(function() {
-      res1 = res1.reverse().join(' ');
-      $("#reverse ul").append("<li>" + res1 + "</li>");
+      res1 = res1.reverse();
+      res1.forEach(function(r) {
+        $("#reverse ul").append("<li>" + r + "</li>");
+      });
+
       $("#reverse").show();
+      $("#result").hide();
+      $(".button").hide();
     });
 
   });
