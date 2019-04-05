@@ -30,7 +30,10 @@ raw Markdown line up prettily. You can also use inline Markdown.
 |The program returns a range of numbers from 0 to the users inputted number     | 4  |0,1,2,3,4 |
 |Numbers that contain a 1: all digits are replaced  with "Beep!"     | 1     |   "Beep!" |
 | Numbers that contain a 2: all digits are replaced with "Boop!" | 2      |   "Boop!" |
-
+| Numbers that contain a 3: all digits are replaced with "I'm sorry.." | 3     |"I'm sorry, Dave. I'm afraid I can't do that." |
+|The number 13 should be replaced | 13     | "I'm sorry, Dave. I'm afraid I can't do that." |
+|The number 21 should be replaced | 21    |   "Boop!" |
+|  For numbers that are divisible by 3, replace the name Dave in "I'm sorry, Dave. I'm afraid I can't do that" with the name provided by the user. | 12    |  "I'm sorry,[users inputted name]. I'm afraid I can't do that."  |
 
 
 ## Known Bugs
