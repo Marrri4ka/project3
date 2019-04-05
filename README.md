@@ -20,7 +20,11 @@ _To run this project,install it locally:_
 * Clone this repository https://github.com/Marrri4ka/project3.git
 * _Open index.html with your browser of choice or open https://marrri4ka.github.io/project3/_
 
-Colons can be used to align columns.
+## Setup/Installation Requirements
+
+There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don't need to make the 
+raw Markdown line up prettily. You can also use inline Markdown.
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
@@ -28,14 +32,7 @@ Colons can be used to align columns.
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
-There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don't need to make the 
-raw Markdown line up prettily. You can also use inline Markdown.
 
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
 
 ## Known Bugs
 
