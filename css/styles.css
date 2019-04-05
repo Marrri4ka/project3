@@ -5,3 +5,16 @@
 .panel-heading{
   text-align: center;
 }
+body{
+  background-color: #d8b55d;
+}
+#userInput  {
+  border: 5px solid grey;
+}
+
+#userName {
+    border: 5px solid grey;
+}
+#upsidedown {
+  color: black;
+ }
