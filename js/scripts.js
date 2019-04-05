@@ -5,6 +5,7 @@ $(document).ready(function() {
     event.preventDefault();
     var number = parseInt($("input#userInput").val());
     var res = "";
+    var res1 = [];
 
     if (isNaN(number) || number === "") {
       alert("Please enter a number!")
@@ -38,9 +39,15 @@ $(document).ready(function() {
         } else {
           res = number1;
         }
-        $("ul").append("<li>" + res + "</li>");
+        result = res.split(" ");
+        for (m = 0; m < result.length; m++) {
+          res1.push(result[m]);
+        }
+
+        // $("ul").append("<li>" + res + "</li>");
 
       }
+      console.log(res1.reverse());
     }
 
   });
