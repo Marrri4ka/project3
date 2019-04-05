@@ -44,11 +44,17 @@ $(document).ready(function() {
           res1.push(result[m]);
         }
 
-        // $("ul").append("<li>" + res + "</li>");
+        $("#result ul").append("<li>" + res + "</li>");
 
       }
-      console.log(res1.reverse());
+
+
     }
+    $("#upsidedown").click(function() {
+      res1 = res1.reverse().join(' ');
+      $("#reverse ul").append("<li>" + res1 + "</li>");
+      $("#reverse").show();
+    });
 
   });
 
