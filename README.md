@@ -6,7 +6,7 @@
 
 ## Description
 
-_Web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:
+Web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:
 
 Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
 Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
@@ -30,10 +30,10 @@ If you have any questions or problems, please contact Mariia (mariiapopovych@gma
 
 ## Technologies Used
 
-_HTML_
-_CSS_
-_JavaScript_
-_JQuery_
+*HTML
+*CSS
+*JavaScript
+*JQuery
 
 ### License
 
