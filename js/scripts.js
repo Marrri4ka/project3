@@ -1,3 +1,8 @@
+//Business logic
+
+
+
+
 //UI logic
 
 $(document).ready(function() {
@@ -10,10 +15,9 @@ $(document).ready(function() {
     var res1 = [];
     var Dave = "I'm sorry, Dave. I'm afraid I can't do that";
     var Dave1 = Dave.replace("Dave", name);
-    console.log(Dave1);
 
-    if (isNaN(number) || number === "") {
-      alert("Please enter a number!")
+    if (isNaN(number) || number === "" || name === "") {
+      alert("Please enter a number and a name!")
     } else {
       for (i = 0; i <= number; i++) {
         var number1 = i.toString();
@@ -52,12 +56,7 @@ $(document).ready(function() {
         }
 
         $("#result ul").append("<li>" + res + "</li>");
-
-
       }
-
-
-
     }
     $("#upsidedown").click(function() {
       res1 = res1.reverse();
@@ -67,9 +66,6 @@ $(document).ready(function() {
 
       $("#reverse").show();
       $("#result").hide();
-
     });
-
   });
-
 });
