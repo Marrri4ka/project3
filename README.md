@@ -1,5 +1,6 @@
 # _Beep Boop_
-
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 #### _Information about different courses in Epicodus bootcamp, 04.05.2019_
 
 #### By _**Mariia Stashuk**_
