@@ -4,8 +4,13 @@ $(document).ready(function() {
   $("form#formOne").submit(function(event) {
     event.preventDefault();
     var number = parseInt($("input#userInput").val());
+    var name = $("input#userName").val();
+    console.log(name);
     var res = "";
     var res1 = [];
+    var Dave = "I'm sorry, Dave. I'm afraid I can't do that";
+    var Dave1 = Dave.replace("Dave", name);
+    console.log(Dave1);
 
     if (isNaN(number) || number === "") {
       alert("Please enter a number!")
@@ -31,7 +36,7 @@ $(document).ready(function() {
 
 
         if (count3 > 0) {
-          res = "Sorry";
+          res = Dave;
         } else if (count2 > 0) {
           res = "Bob";
         } else if (count1 > 0) {
@@ -39,7 +44,7 @@ $(document).ready(function() {
         } else {
           res = number1;
         }
-        result = res.split(" ");
+        result = res.split(", . ");
         for (m = 0; m < result.length; m++) {
           res1.push(result[m]);
         }
@@ -65,3 +70,8 @@ $(document).ready(function() {
   });
 
 });
+
+
+// if (number % 3 === 0) {
+//   for
+// }
