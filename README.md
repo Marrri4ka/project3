@@ -30,10 +30,10 @@ If you have any questions or problems, please contact Mariia (mariiapopovych@gma
 
 ## Technologies Used
 
-*HTML
-*CSS
-*JavaScript
-*JQuery
+* HTML
+* CSS
+* JavaScript
+* JQuery
 
 ### License
 
