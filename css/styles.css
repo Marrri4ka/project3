@@ -1,3 +1,7 @@
 #reverse {
   display: none;
 }
+
+.panel-heading{
+  text-align: center;
+}
