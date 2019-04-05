@@ -1,9 +1,9 @@
 //Business logic
 
-var res1 = [];
+var reversedSentence = [];
 
 function showNumber(number, name) {
-  var res = "";
+  var replaceWord = "";
 
   var daveName = "I'm sorry, Dave. I'm afraid I can't do that";
   var userName = daveName.replace("Dave", name);
@@ -27,23 +27,23 @@ function showNumber(number, name) {
     }
 
     if (number % 3 === 0 && (count3 > 0)) {
-      res = userName;
+      replaceWord = userName;
 
     } else if (count3 > 0) {
-      res = daveName;
+      replaceWord = daveName;
     } else if (count2 > 0) {
-      res = "Bob";
+      replaceWord = "Bob";
     } else if (count1 > 0) {
-      res = "Beep";
+      replaceWord = "Beep";
     } else {
-      res = number1;
+      replaceWord = number1;
     }
-    result = res.split(", . ");
+    result = replaceWord.split(", . ");
     for (m = 0; m < result.length; m++) {
-      res1.push(result[m]);
+      reversedSentence.push(result[m]);
     }
 
-    $("#result ul").append("<li>" + res + "</li>");
+    $("#result ul").append("<li>" + replaceWord + "</li>");
   }
 }
 
@@ -63,8 +63,8 @@ $(document).ready(function() {
       showNumber(number, name);
     }
     $("#upsidedown").click(function() {
-      res1 = res1.reverse();
-      res1.forEach(function(r) {
+      reversedSentence = reversedSentence.reverse();
+      reversedSentence.forEach(function(r) {
         $("#reverse ul").append("<li>" + r + "</li>");
       });
 
