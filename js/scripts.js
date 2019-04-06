@@ -51,7 +51,7 @@ function showNumber(number, name) {
 //UI logic
 
 $(document).ready(function() {
-  $("form#formOne").submit(function(event) {
+  $("#submit").click(function(event) {
     event.preventDefault();
     var number = parseInt($("input#userInput").val());
     var name = $("input#userName").val();
@@ -69,7 +69,7 @@ $(document).ready(function() {
       });
 
       $("#reverse").show();
-      $("#result").hide();
+
     });
   });
 });
