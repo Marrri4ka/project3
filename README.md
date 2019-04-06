@@ -36,7 +36,7 @@ _To run this project,install it locally:_
 
 ## Known Bugs
 
-Some links are not operational currently
+No bugs.
 
 ## Support and contact details
 
