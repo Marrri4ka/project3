@@ -62,7 +62,8 @@ $(document).ready(function() {
     } else {
       showNumber(number, name);
     }
-    $("#upsidedown").click(function() {
+    $("#upsidedown").click(function(event) {
+      event.preventDefault();
       reversedSentence = reversedSentence.reverse();
       reversedSentence.forEach(function(r) {
         $("#reverse ul").append("<li>" + r + "</li>");
